@@ -1,0 +1,32 @@
+{
+    "server":{
+    "host":"localhost", 
+    "openport":":5799",
+    "closedport":":10449"
+    },
+    "database":{
+    "host":"localhost",
+    "port":"5432",
+    "user":"gpissd",
+    "pass":"pwd@omobaba1",
+    "db_name":"singleaf"
+    },
+    "token": {
+    "key": "the_only_secret_key"
+    },
+    "file": {
+        "path":"user/asset/images"
+    },
+    "ustbe": {
+        "path":"ustbe/asset/images"
+    },
+    "publisher": {
+        "path":"enterprises/asset/images"
+    },
+    "besta": {
+        "path":"besta/asset/images"
+    },
+    "apps": {
+        "path":"apps/asset/images"
+    }
+}
